@@ -38,6 +38,7 @@ app-new-task {
   opacity: 0.2;
 }
 
+/* bırakırken ki animasyon */
 .cdk-drag-animating {
   transition: transform 250ms;
 }
