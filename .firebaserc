@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "kanbanpano": {
+      "hosting": {
+        "kanban-pano": [
+          "kanbanpano"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "kanbanpano"
+  }
+}
