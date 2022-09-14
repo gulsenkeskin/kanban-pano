@@ -4,8 +4,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { DragDropModule } from '@angular/cdk/drag-drop';
-
 import { AppRoutingModule } from './app-routing.module';
+import { MatButtonModule } from '@angular/material/button';
+
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TaskComponent } from './task/task.component';
@@ -22,7 +23,8 @@ import { TaskComponent } from './task/task.component';
     MatToolbarModule,
     MatIconModule,
     MatCardModule,
-    DragDropModule
+    DragDropModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
