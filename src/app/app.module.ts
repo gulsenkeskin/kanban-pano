@@ -11,11 +11,13 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TaskComponent } from './task/task.component';
+import { TaskDialogComponent } from './task-dialog/task-dialog.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TaskComponent
+    TaskComponent,
+    TaskDialogComponent
   ],
   imports: [
     BrowserModule,
