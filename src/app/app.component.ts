@@ -31,8 +31,7 @@ export class AppComponent {
     if (event.previousContainer === event.container) {
       return;
     }
-
-    if (event.container.data || !event.previousContainer.data) {
+    if (!event.container.data || !event.previousContainer.data) {
       return;
     }
     transferArrayItem(
@@ -41,10 +40,6 @@ export class AppComponent {
       event.previousIndex,
       event.currentIndex
     );
-
-
-
-
   }
 
 
